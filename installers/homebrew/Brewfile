@@ -45,9 +45,7 @@ brew "gnu-tar"
 brew "zsh-completions"
 brew "scala"
 brew "groovy"
-brew "sbt"
 brew "maven"
-brew "zinc"
 brew "poppler"
 brew "antigen"
 brew "awscli"
@@ -77,7 +75,6 @@ brew "wifi-password"
 
 # Server stack
 brew "dnsmasq"
-brew "percona-server"
 
 # Programming languages
 # Installing Python/Ruby with Homebrew is unnecessary,
@@ -90,10 +87,7 @@ brew "rbenv" # Ruby
 brew "nvm"
 # brew "node" # Also installs `npm`
 brew "yarn" # Faster than npm
-brew "rancher-cli"
-brew "rancher-compose"
 brew "jq"
-brew "typesafe-activator"
 
 # Network tools
 brew "namebench"
@@ -135,7 +129,7 @@ cask "wkhtmltopdf"
 
 cask "alfred"
 cask "charles"
-cask "discord"
+# cask "discord"
 cask "disk-inventory-x"
 cask "docker"
 cask "dropbox"
@@ -187,8 +181,8 @@ cask "hosts"
 # cask "ios-saver"
 
 # Drivers
-cask "scansnap-manager-ix500"
-cask "synology-assistant"
+# cask "scansnap-manager-ix500"
+# cask "synology-assistant"
 
 # QuickLook plugins
 cask "qlcolorcode"
@@ -232,19 +226,19 @@ cask "font-meslo-for-powerline"
 
 
 # MAS applications
-mas "Marked 2", id: 890031187
-mas "Day One", id: 1055511498
-mas "Next", id: 896146364
-mas "Telegram", id: 747648890
+# mas "Marked 2", id: 890031187
+# mas "Day One", id: 1055511498
+# mas "Next", id: 896146364
+# mas "Telegram", id: 747648890
 mas "Twitter", id: 409789998
-mas "Marked 2", id: 890031187
-mas "Pixelmator", id: 407963104
+# mas "Marked 2", id: 890031187
+# mas "Pixelmator", id: 407963104
 mas "1Password", id: 443987910
-mas "Fantastical 2", id: 975937182
+# mas "Fantastical 2", id: 975937182
 mas "ForkLift", id: 412448059
-mas "Airmail 2", id: 918858936
-mas "Microsoft Remote Desktop", id: 715768417
-mas "Guidance", id: 412759995
+# mas "Airmail 2", id: 918858936
+# mas "Microsoft Remote Desktop", id: 715768417
+# mas "Guidance", id: 412759995
 mas "Slack", id: 803453959
 
 # Apple MAS applications

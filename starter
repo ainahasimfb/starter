@@ -136,7 +136,7 @@ set_prefs font-book "Font Book"
 #set_prefs mail "Mail"
 #set_prefs messages "Messages"
 set_prefs quicktime "QuickTime Player"
-set_prefs safari "Safari" "WebKit"
+#set_prefs safari "Safari" "WebKit"
 #set_prefs terminal # Do not kill "Terminal" - it will stop script execution
 set_prefs textedit "TextEdit"
 

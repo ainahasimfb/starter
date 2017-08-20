@@ -12,7 +12,6 @@ sudo softwareupdate -ia --verbose
 INSTALLERS=(
   xcode # XCode __must__ be installed before Homebrew
   homebrew # Homebrew __must__ be installed before other tools
-  xcode
   ruby
   python
   node

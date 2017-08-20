@@ -63,14 +63,7 @@ setup_plugins && setup_theme && antigen apply
 
 export PATH=/usr/local/bin:$PATH
 export MAVEN_OPTS="-Xmx2048m -XX:+CMSClassUnloadingEnabled -XX:+UseCompressedOops"
-export LEARNDOT_CONFIG="/Users/faizhasim/dev/stash/unicorn-scala/config/development.yml"
 export JAVA_HOME=$(/usr/libexec/java_home)
-
-export NVM_DIR="/Users/faizhasim/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# added by travis gem
-[ -f /Users/faizhasim/.travis/travis.sh ] && source /Users/faizhasim/.travis/travis.sh
 
 # Hyperterm Compatability (see https://github.com/zeit/hyperterm/issues/360)
 export LANG="en_US.UTF-8"
